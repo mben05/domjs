@@ -1,0 +1,55 @@
+
+*{ box-sizing: border-box;
+padding: 0;
+margin: 0;}
+
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-menu{
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    background: #082135;
+    margin-top: 10px;
+    transform: translateX(-500px);
+    transition: ease-in-out 0.3s;
+    
+}
+
+.link{
+    margin-top: 1.2rem;
+    font-size: 25px;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.exit-icon{
+    cursor: pointer
+    
+}
+a{
+    text-decoration: none;
+    color:#e1e6e9;
+}
+
+.translate{
+    transform: translateX(0);
+}
+
+.separator{
+    border: 2px solid white;
+    width: 330px
+}
+
+#exit{
+    color: #e1e6e9;
+    
+}
+
